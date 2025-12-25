@@ -50,7 +50,7 @@ const App = () => {
       <input type="text" placeholder="Enter second name" data-testid="input2" name="name2" onChange={handleChange2}/>
       <button data-testid="calculate_relationship" name="calculate_relationship" type="submit">Calculate Relationship Future</button>
       <button data-testid="clear" name="clear" type="reset">Clear</button>
-      {{ans} && <h3 data-tesid="answer">{ans}</h3>}
+      <h3 data-tesid="answer">{ans}</h3>
     </form>
   ); // prettier-ignore
 };
